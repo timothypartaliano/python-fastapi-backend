@@ -31,3 +31,11 @@ Simple Backend App using Python &amp; FastAPI
  curl -X GET http://127.0.0.1:8000/items/<index>
  exp: curl -X GET http://127.0.0.1:8000/items/0
 ```
+
+6. Get items with limit
+```bash
+ curl -X GET 'http://127.0.0.1:8000/items?limit=<limit>'
+ exp: curl -X GET http://127.0.0.1:8000/items?limit=3'
+
+ curl -X GET 'http://127.0.0.1:8000/items
+```
