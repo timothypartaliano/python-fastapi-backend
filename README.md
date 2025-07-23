@@ -19,3 +19,9 @@ Simple Backend App using Python &amp; FastAPI
 ```bash
  uvicorn main:app --reload
 ```
+
+4. Add items
+```bash
+ curl -X POST -H "Content-Type: application/json" 'http://127.0.0.1:8000/items?item=<item>'
+ exp: curl -X POST -H "Content-Type: application/json" 'http://127.0.0.1:8000/items?item=mango'
+```
