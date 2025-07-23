@@ -39,3 +39,8 @@ Simple Backend App using Python &amp; FastAPI
 
  curl -X GET 'http://127.0.0.1:8000/items
 ```
+
+</br>
+
+## Documentation
+The documentation is available on http://localhost:8000/docs#
